@@ -1,0 +1,106 @@
+.book {
+    color: #98e1ee;
+}
+
+.background {
+    background-color:#e2f6f8 ;
+}
+
+.text-top-space {
+    padding-top: 60px; /* หรือระยะตามต้องการ */
+  }
+  .sriracha-font {
+  font-family: 'Sriracha', cursive;
+}
+ .anuphan-font {
+      font-family: 'Anuphan', sans-serif;
+      font-size:40px;
+    }
+ 
+p {
+  text-indent: 40px;           /* ย่อบรรทัดแรกของแต่ละย่อหน้า 20px */
+  line-height: 1.6;            /* เพิ่มระยะห่างระหว่างบรรทัด */
+  margin-bottom: 16px;         /* กำหนดระยะห่างระหว่างย่อหน้า */
+  text-align: justify;         /* จัดข้อความให้เต็มบรรทัด */
+  font-size: 1rem;             /* กำหนดขนาดฟ้อนต์ให้เหมาะสม */
+}
+  .maitree-font {
+      font-family: 'Maitree', sans-serif;
+    }
+    .blue-font {
+  color: rgb(70, 70, 82);  /* ใช้สีน้ำเงิน */
+}
+ .center-content {
+  display: flex;
+  flex-direction: column;      /* จัดให้อยู่ในแนวตั้ง */
+  justify-content: center;     /* จัดตำแหน่งตามแนวตั้งให้อยู่กลาง */
+  align-items: center;         /* จัดตำแหน่งตามแนวนอนให้อยู่กลาง */
+  height: 100%;                /* ต้องแน่ใจว่ามีความสูงพอ */
+}
+.image-wrapper {
+  position: relative;
+  background-image: url('../images/'); /* ← ใช้ .jpeg ให้ตรงกับชื่อจริง */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 300px; /* บังคับให้เห็นพื้นหลัง */
+}
+.fade-blur {
+  opacity: 0;
+  filter: blur(10px);
+  transform: translateY(-30px);
+  transition: opacity 1.5s ease, filter 1.5s ease, transform 1.5s ease;
+ 
+}
+.font-playwrite-au-tas-thin {
+  font-family: 'Playwrite AU TAS', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
+
+}
+.overlay-bg {
+  width: 100%;
+  height: 400px;
+  background-image: 
+    url('overlay.png'),         /* รูปภาพทับซ้อน */
+    url('background.jpg');      /* รูปภาพพื้นหลัง */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-blue {
+  background-color: #EFF7F8;
+}
+.grey {
+  color: rgb(70, 70, 82);  }
+ 
+ .book-container {
+  position: relative;
+  width: 400px; /* กำหนดให้เท่ากับความกว้างรูป */
+  margin: 0 auto;
+}
+
+.book-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+.selector {
+  background-image: url('../images/10.jpg'), url('background');
+  background-position: center center, center center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, cover;
+ 
+}
+.shippori-font {
+  font-family: 'Shippori Mincho', serif;
+}
+.background2 {
+    background-color:#e2f6f8 ;
+}
+
+
